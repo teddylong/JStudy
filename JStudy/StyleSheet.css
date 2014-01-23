@@ -1,4 +1,11 @@
-﻿code[class*="language-"],
+﻿@font-face{
+	font-family: FrancGothiqueBrush;
+	font-style: normal;
+	font-weight: 400;
+	src:url(FrancGothiqueBrush.ttf);
+}
+
+code[class*="language-"],
 pre[class*="language-"] {
 	color: #f8f8f2;
 	text-shadow: 0 1px rgba(0,0,0,0.3);
@@ -105,3 +112,60 @@ color: #66d9ef;
 	cursor: help;
 }
 
+
+#whole
+{
+	border-color: gray;
+	
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	height: 900px;
+	background-color: #FFFFD1;
+}
+#header
+{
+	
+	height: 55px;
+	background-color:#CC2929;
+	border-color: red;
+	border-top-right-radius: 8px;
+	border-top-left-radius: 8px;
+
+}
+.menuBtn{
+	font:bold 31px "Arial Black", Gadget, sans-serif;
+	font-style:normal;
+	color:#ffffff;
+	background:#b3092b;
+	border:0px outset #948e78;
+	text-shadow:0px 1px 0px #0d0d0d;
+	box-shadow:0px 0px 0px #dbd8ce;
+	-moz-box-shadow:0px 0px 3px #dbd8ce;
+	-webkit-box-shadow:0px 0px 3px #dbd8ce;
+	border-radius:15px 15px 15px 15px;
+	-moz-border-radius:15px 15px 15px 15px;
+	-webkit-border-radius:15px 15px 15px 15px;
+	width:25px;
+	padding:0px 23px;
+	cursor:pointer;
+	margin:0 auto;
+}
+
+.menuBtn:active{
+	cursor:pointer;
+	position:relative;
+	top: 10px;
+}
+
+#AppName
+{
+	font-family: FrancGothiqueBrush;
+	font-size: 40px;
+	font-weight: 400;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 2px;
+	width: 200px;
+	color: White;
+}
