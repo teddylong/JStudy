@@ -6,6 +6,12 @@
 	src:url(FrancGothiqueBrush.ttf);
 }
 
+/*@font-face{
+	font-family: Hiragino;
+	font-style: normal;
+	font-weight: 400;
+	src:url(Hiragino.otf);
+}*/
 
 #whole
 {
@@ -318,24 +324,28 @@
 .flag {
   position: relative;
   display: inline;
-  background: rgb(248,248,248);
+  /*background: white;*/
   padding: 6px 10px;
   border-radius: 5px;
-  
-  font-weight: 600;
+  font-family: "Lato", sans-serif;
+  line-height: 1.6em;
+  color:#3D2914;
+  word-spacing: normal;
+  font-size:14px;
+  font-weight: bold;
   text-align: left;
 }
 
 .direction-l .flag {
-  -webkit-box-shadow: -1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+  -webkit-box-shadow: -1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.45);
   -moz-box-shadow: -1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
   box-shadow: -1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
 }
 
 .direction-r .flag {
-  -webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
-  -moz-box-shadow: 1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
-  box-shadow: 1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+  -webkit-box-shadow: 2px 2px 2px rgba(0,0,0,0.85), 0 0 1px rgba(0,0,0,0.45);
+  -moz-box-shadow: 2px 2px 2px rgba(0,0,0,0.85), 0 0 1px rgba(0,0,0,0.45);
+  /*box-shadow: 1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);*/
 }
 
 .direction-l .flag:before,
@@ -381,7 +391,7 @@
   width: 0;
   margin-top: -8px;
   border: solid transparent;
-  border-right-color: rgb(248,248,248);
+  border-right-color: red;
   border-width: 8px;
   pointer-events: none;
 }
@@ -411,10 +421,9 @@
 
 .desc {
   margin: 1em 0.75em 0 0;
-  
-  font-size: 0.77777em;
-  font-style: italic;
+  font-size: 12px;
   line-height: 1.5em;
+  font-family: 微软雅黑;
 }
 
 .direction-r .desc {
