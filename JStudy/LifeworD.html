@@ -3,17 +3,19 @@
 <head>
     <title>Life worD</title>
     <link rel="stylesheet" href="StyleSheet.css" />
+    <link rel="stylesheet" href="SideBar.css" />
     <meta charset="utf-8">
 </head>
 <body>
+	<input type='checkbox' id='sideToggle'>
+	<aside><h2>Side Menu</h2></aside>
     <div id="whole">
 	    <div id="header">
-			<div class="menuBtn" style="float:left;margin-left:10px;margin-top:6px;">&#x2756;</div>
+			<label class="menuBtn" style="float:left;margin-left:10px;margin-top:6px;" id='sideMenuControl' for='sideToggle'>&#x2756;</label>
 			<div id="AppName">LIFE WORD</div>
 			<div class="menuBtn" style="margin-right:10px;margin-top:-46px;">&#x2714;</div>
 	    </div>
 	    <div id="pre">
-	    	
     		<form class="form-wrapper cf">
 				<input type="text" placeholder="Search..." required>
 				<button type="submit">Search</button>
